@@ -56,19 +56,17 @@ article {
 	padding-bottom: 20px;
 	padding-left: 20px;
 }
+
+
 /*Clear the float so the footer shows up in the right place again.*/
- footer {
-	width: 769px;
-	height: 50px;
-	background-color: #646464;
-	margin-left: 158px;
-}
+ 
 #container {
 	width: 768px;
 	height: 4390px;
 	background-color: white;
 	margin: auto;
 }
+
 
 .floatLeft {
 	float: left;
@@ -79,6 +77,12 @@ article {
 	background-color: #909090;
 	height: 1489px;
 	float: left;
+}
+footer{
+	width: 770px;
+	height: 50px;
+	margin: auto;
+	background-color: #646464;
 }
 nav {
 	width: 803px;

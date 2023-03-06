@@ -1,0 +1,171 @@
+@charset "UTF-8";
+body {
+	color: #191919;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 14pt;
+	background-image: url(bgtravel.jpg);
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+    }
+header {
+	width: 768px;
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(travellogo.png);
+}
+main {
+	width: 578px;
+	height: 2000px;
+	background-color: #E5BDD6;
+	float: left;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+h1 {
+	color: #6C205E;
+	font-family: "bodoni-urw", serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 28pt;
+}
+h3 {
+	font-size: 12pt;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	color: #F3D8BE;
+	font-family: "bodoni-urw", serif;
+}
+footer {
+	width: 768px;
+	height: 50px;
+	background-color: #6C205F;
+	clear: both;
+}
+#container {
+	width: 768px;
+	height: auto;
+	background-color: #E5BDD7;
+	margin: auto;
+	background-image: url(url);	
+}
+aside {
+	width: 150px;
+	height: 2445px;
+	background-color: #9B4A8C;
+	float: left;
+}
+p {
+	color: #544268;
+	font-family: "bodoni-urw", serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 14pt;
+}
+img {
+	float: right;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+.floatLeft {
+	
+	float: left;
+}
+article {
+	margin-bottom: 50px;
+}
+nav {
+	width: 779px;
+	height: 67px;
+	margin-top: 20px;
+}
+li {
+	display: block;
+	list-style-type: none;
+	float: left;
+	margin-right: 60px;
+	font-family: miller-display, serif;
+	
+}
+ul {
+	margin: auto;
+	width: 514px;
+}
+
+nav a:link {
+	color: #6C205E;
+	
+	text-decoration: none;
+}
+nav a:visited {
+	text-decoration: none;
+}
+nav a:hover {
+	text-decoration: none;
+	color: #E5BDD6;
+	background-color:#6C205E;
+	padding: 3px;
+	border-radius: 20px
+}
+
+nav a:active {
+	text-decoration: none;
+}
+
+.submit_btn {
+	width: 141px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #6C205F;
+	color: #FFFFFF;
+	font-size: 14px;
+	text-shadow: 0px 0px;
+	
+}
+
+td{
+	background-color: rgba(255,255,255,1.00);
+	width: 90px;
+	padding: 10px;
+	border: 5px solid #1F1F1F;
+	border-radius: 20px;
+	font-family: "bodoni-urw", serif;
+	border-color: #6C205E;
+	margin: auto;
+	}
+	
+th {
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	background-color: #DFA7A8;
+	border: 5px solid #1b1919;
+	border-radius: 20px;
+	font-weight: normal;
+	font-size: 25px;
+	font-family: "bodoni-urw", serif;
+	border-color: #6C205E;
+}
+
+.submit_btn:hover {
+	-webkit-box-shadow: 6px 6px 10px 1px #5F5F5F;
+	box-shadow: 6px 6px 10px 1px #5F5F5F;
+}
+
+.italicize {
+	font-style: italic;	
+}
+
+
+a {
+	color: #855FA0;
+}

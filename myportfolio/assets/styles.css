@@ -1,0 +1,256 @@
+@charset "UTF-8";
+
+ body {
+	color: #1B1919;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 14pt;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(../images/background.jpg);
+  }
+h1 {
+	color:#EF98C1;
+	font-family: politica, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	width: 598px;
+}
+p{
+font-family: "canada-type-gibson", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+h3 {
+	font-size: 12pt;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+ header {
+	width: 1290px;
+	height: 250px;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 50px;
+	background-image: url(../images/newheader.png);
+	background-color: #B1E2F7;
+}
+img {
+	float: right;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+article {
+	margin-bottom: 50px;
+	width: 534px;
+}
+/*Float the Main so it shows up next to the Aside. Reduce the widtch by 150px so they both line up with the header.*/
+ main {
+	width: 1081px;
+	height: 144px;
+	float: right;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	background-color: #B1E2F7;
+}
+/*Clear the float so the footer shows up in the right place again.*/
+ footer {
+	width: 1290px;
+	height: 50px;
+	background-color: #89C6D3;
+	margin: auto;
+}
+#container {
+	width: 1290px;
+	height: 4309px;
+	background-color: #B1E2F7;
+	margin: auto;
+}
+
+.floatLeft {
+	float: left;
+}
+/*Float the Aside so it displays next to Main.*/
+ aside {
+	width: 150px;
+	background-color: #89C6D3;
+	height: 1489px;
+	float: left;
+}
+nav {
+	width: 1290px;
+	height: 50px;
+	position: fixed;
+	top: 0px;
+	background-color: #B1E2F7;
+}
+#container nav li {
+	display: block;
+	list-style-type: none;
+	float: left;
+	width: 80px;
+	margin-right: 60px;
+	font-family: neonoir, sans-serif;
+	font-size: 18pt;
+}
+#container nav ul {
+	margin: auto;
+	width: 561px;
+}
+
+nav a:link {
+	color: #187EC4;
+	padding: 10px;
+	text-decoration: none;
+}
+nav a:visited {
+	text-decoration: none;
+	color: #EF98C1;
+}
+nav a:hover {
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color:#89C6D3;
+	padding: 10px;
+	border-radius: 20px;
+}
+nav a:active {
+	text-decoration: none;
+	color: #191919;
+}
+.submit_btn {
+	width: 170px;
+	height: 30px;
+	border-radius: 10px;
+	background-color: #89C6D3;
+	color: #FFFFFF;
+	font-size: 16px;
+	
+}
+.submit_btn:hover {
+	-webkit-box-shadow: 6px 6px 35px 1px #000000;
+	box-shadow: 6px 6px 35px 1px #000000;
+}
+.column   {
+	width: 250px;
+	height: 820px;
+	float: left;
+	margin-left: 77px;
+	margin-right: 20px;
+}
+
+.cclicense{
+	width: 500px;
+	height: 200px;
+	clear: both;
+	padding: 50px 0px 0px 0px;
+}
+video {
+	width: 600px;
+	margin: auto;
+	height: 600px;
+}
+
+
+/*Rules the page will follow for table-sized devices*/
+@media (max-width: 1024px){
+	#container {
+		width: 768px;
+	}
+	header {
+	width: 768px;
+	margin-top: 35px;
+	}
+	
+	nav {
+		width: 768px;
+		
+	}
+	main {
+	width: 578px;
+	}
+	footer {
+		width: 768px;
+	}
+	
+	.column {
+	margin-left: 24px;
+	margin-right: 15px;
+	}
+	
+}
+/*rules the page will follow on mobile devices*/
+@media only screen and (max-width:375px){
+	p{
+	font-style: normal;
+	font-size: 15px;
+}
+	
+	video{
+	width: 250px;
+	height: 250px;
+	}
+	#container {
+		width: 300px;
+	}
+	header {
+		width: 300px;
+		background-image: url("../images/headersmall.jpg")
+		
+	}
+	
+	nav {
+		width: 300px;
+		height: 250px;
+		position: static;
+		
+	}
+	main {
+	width: 268px;
+	}
+	footer {
+		width: 300px;
+	}
+	aside{
+		display: none;
+	}
+	
+		#container nav li {
+	display: list-item;
+	list-style-type: none;
+	float: none;
+	margin: 0px 0px 20px 0px;
+	width: 260px;
+	text-align: center;	
+	
+}
+	
+	#container nav ul {
+	width: 260px;
+}
+
+	nav a:link {
+	display: block;
+	width: 200px;
+	background-color: #65EBFB;
+	color: white;
+	}
+	
+	nav a:visited {
+	text-decoration: none;
+	color: white;
+}
+	
+	.column {
+	margin-left: 24px;
+	margin-right: 15px;
+	}
+	
+	
+}

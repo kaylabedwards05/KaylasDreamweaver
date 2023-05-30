@@ -1,0 +1,265 @@
+@charset "UTF-8";
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: "Monument Extended", Arial, Helvetica, sans-serif;
+}
+
+body {
+	
+    margin: 0;
+    padding: 0;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+   
+}
+
+header {
+    box-sizing: border-box;
+    min-height: 100vh;
+    position: relative;
+    transform-style: inherit;
+    width: 100vw;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+header h1 {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+header h3 {
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+header,
+header:before {
+    background: 50% 50% / cover;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    background-image: url(../images/parallaxhomeimage.jpg);
+    background-size: cover;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    min-height: 100vh;
+    background-repeat: no-repeat;	
+}
+
+
+
+
+.container {
+    z-index: 2;
+    position: absolute;
+    top: 100vh;
+    height: 800px;
+    background: #FFDAB9;
+    line-height: 50px;
+    font-weight: lighter;
+    padding: 40px;
+    color: grey;
+    float: right;	
+}
+.container2 {
+    z-index: 2;
+    position: absolute;
+    top: 150vh;
+    height: 850px;
+    background-color: #FFDAB9;
+    line-height: 50px;
+    font-weight: lighter;
+    padding-left: 80px;
+    color: grey;
+    margin-top: 2000px;
+    background-image: url(../images/container2.png);
+    width: 3000px;
+}
+
+
+h1{
+    font-family: abadi-condensed,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 100px;
+	color: white;
+}
+h2{
+    font-family: abadi-condensed,sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 30px;
+    color: #800000;
+    margin-top: 138px;
+    margin-right: auto;
+    margin-left: 55px;
+    margin-bottom: auto;
+    padding-left: 600px;
+    margin-top: 138px;
+}
+
+h3{
+    font-family: abadi-condensed,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+	color: white;
+	margin: auto;
+}
+h4{
+    font-family: "abadi-condensed", sans-serif;
+    font-weight: 1;
+    font-size: 25px;
+    float: left;
+    padding-left: 600px;
+    padding-right: 727px;
+    color: #4C6958;
+    z-index: 10;
+    margin-top: -44px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    line-height: 57px;
+    margin-left: 49px;
+}
+
+footer{
+    background-color: rgba(161,29,31,1.00);	
+}
+nav{
+    height: 104px;
+    margin-right: 72px;
+    margin-top: 10px;
+}
+a {
+    font-family: "abadi-condensed", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: rgba(255,255,255,1.00);
+    padding-left: 261px;
+    text-align: center;
+    margin-left: 180px;
+    margin-bottom: 119px;
+    padding-bottom: 0px;
+    width: 0px;
+    line-height: 89px;
+    font-size: 48px;
+    padding-top: 10px;
+    margin-top: 119px;
+    margin-right: 119px;
+}
+
+nav a:link {
+	color: white;
+	padding: 10px;
+	text-decoration: none;
+}
+nav a:visited {
+    text-decoration: none;
+	
+    color: rgba(0,0,0,1.00);
+    
+}
+nav a:hover {
+	text-decoration: none;
+	color: #800000;
+	background-color:white;
+	
+	border-radius: 20px;
+}
+nav a:active {
+	text-decoration: none;
+	color: #191919;
+}
+
+
+p{
+    padding-left: 500px;
+    font-family: "abadi-condensed", sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    color: #4C6958;
+    margin-left: 1053px;
+    margin-right: 251px;
+    margin-bottom: 56px;
+    padding-right: 42px;
+	z-index: 2;
+}
+.links{
+	
+    padding-left: 500px;
+    font-family: "abadi-condensed", sans-serif;
+    font-weight: lighter;
+    font-size: 25px;
+    color: #4C6958;
+    margin-left: 1053px;
+    margin-right: 251px;
+    margin-bottom: 56px;
+    padding-right: 42px;
+
+}
+.floatleft{
+    float: left;
+    z-index: 10;
+}
+.smallcaps{
+	font-variant: small-caps;
+}
+.margin{
+    margin-top: 200px;
+    background-position: 50% 100% / cover;
+    content: "";
+    position: absolute;
+    display: block;
+    transform-origin: center center 0;
+    transform: translateZ(-1px) scale(2);
+    z-index: -1;
+    height: 2000px;
+    background-image: url(../images/oxtail.jpg);
+} 
+.buyButton {
+    font-size: 38px;
+    padding-left: 500px;
+    font-family: "abadi-condensed", sans-serif;
+    font-weight: lighter;
+    color: #4C6958;
+    margin-left: 576px;
+    padding-top: 37px;
+    border-radius: 20px;
+    border-color: #800000;
+    border-collapse: collapse;
+    border-style: ridge;
+}
+.submit_btn {
+    font-family: "abadi-condensed", sans-serif;
+    font-weight: lighter;
+    margin-left: 938px;
+    width: 190px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: rgba(128,0,0,0.95);
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
